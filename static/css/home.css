@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body
+{
+    width:100vw;
+    background: #0b101a;
+    position: relative;
+    font-family: roboto, sans-serif;
+}
+.bg-color {
+    background-image:url("https://st2.depositphotos.com/3591429/5997/i/950/depositphotos_59977559-stock-photo-hands-holding-word-about-us.jpg");
+    background-size:cover;
+    border-radius: 15px;
+    
+}
+#navHead{
+    color:white;
+}
+#pra{
+    color:white;
+}
+#pra1{
+    color:white;
+}
+
+.bg-color2 {
+    background-image:url("https://www.starhealth.in/blog/wp-content/uploads/2022/03/First_Aid.png");
+    background-size:cover;
+    border-radius: 15px;
+}
+.bg-color3{
+    background-color:pink;
+    border-radius:15px;
+}
+.bedtext{
+    color:white;
+}
+.bg-bed{
+    background-color:black;
+    
+}
+.hearthbg{
+    background-color:aquamarine;
+    border-radius:10px;
+}
+.snakebitbg{
+    background-color: aquamarine;
+    border-radius:10px;
+}
+.hearttext{
+    font-size:30px;
+    width:30vw;
+}
+.snaketext{
+    font-size:30px;
+}
+.img1{
+    height:100px;
+    width:100px;
+}
+.para1{
+    color:white
+}
+.heartbg1{
+    background-color:#0b101a;
+    border-radius:10px;
+}
+.var1{
+    background-color:brown;
+    padding:10px;
+}
+.img2{
+    width:230px;
+}
+.pragbg{
+    background-color:aquamarine;
+    width:130px;
+}
+.img3{
+    width:230px;
+    height:210px;
+}
+.about-card{
+    background-color:white;
+    color:black;
+    margin:160px;
+    padding:20px;
+    height:250px;
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Signin</title>
+    </head>
+    <body>
+        <h1>Signin</h1>
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="bed">Please Enter The Number of beds:</label>
+        <input type="number" id="bed" name="bed" required><br><br>
+        <p id="createEl1"></p>
+        <input type="submit" id="sub" value="Submit">
+        </form>
+        <script>
+            let o = document.getElementById("sub");
+            let x = Math.ceil(Math.random()*(10));
+            let inputEl=document.getElementById("bed");
+            let paraEl=document.getElementById("createEl1");
+            let a = inputEl.value;
+            let r =parseInt(a)
+            o.onclick=function(){
+            if(x>r){
+                paraEl.textContent="seats are available";
+                let d =document.create("button");
+                d.textContent="Book Now";
+            }
+            else{
+                paraEl.textContent="sorry";
+            }
+        }
+        </script>
+    </body>
+</html>
